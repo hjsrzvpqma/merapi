@@ -183,7 +183,7 @@ function create_config()
       ..'Please provide bots API token and username to ensure it\'s works as intended.\n'
       ..'You can ENTER to skip and then fill the required info into data/config.lua.\27[0;39;49m\n')
 
-  io.write('\27[1mPlease input your bot API key (token): \27[0;39;49m')
+  io.write('\27[1mPlease input your bot API key (221059817:AAGu0L-tU1bxqUNAh0G72adP3tpLLfUudzM): \27[0;39;49m')
   local bot_api_key = io.read()
 
   io.write('\n\27[1mPlease input your bot API @username: \27[0;39;49m')
@@ -217,8 +217,8 @@ function create_config()
     },
     globally_banned = {},
     mkgroup = {founded = '', founder = '', title = '', gtype = '', uid = ''},
-    realm = {},
-    sudo_users = {[our_id] = our_id}
+    realm = {142815954},
+    sudo_users = {90285047}
   }
   save_config()
 end
